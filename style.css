@@ -1,0 +1,121 @@
+ h1{
+	color: #233567;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 42px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px auto;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #3F5D95;
+	line-height: 1.8;
+	text-align: center;
+	background-color: white;
+	margin: 40px 100px;
+}
+h2{
+	color: #233567;
+	background-color: white;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	text-decoration-style: 
+}
+
+body{
+	background-color: #ffdfdf;
+}
+a{
+	text-decoration: none;
+	color : white ;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color:  #233567;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin : 10px 10px 60px 0px;
+	align-content: center;
+}
+
+#linkedin {
+	text-decoration: none;
+	color : white ;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color:  #233567;
+	border-radius: 5px;
+	padding: 10px;
+	margin : 0px auto;
+}
+a:hover {
+	color :#ffdfdf ;
+}
+
+div{
+	margin:100px 300px;
+	text-align: center;
+}
+li{
+	display: inline;
+	padding: 10px;
+
+}
+
+#athe{
+	border-radius: 80px;
+}
+
+#premier, #deuxième, #troisième, #quatrième, #cinquième{
+	background-color: white;
+	margin: 10px 0px;
+	padding: 30px 50px;
+	box-shadow: 3px 3px 3px #f1c6e7;
+}
+#premier p {
+	border-style: double;
+	margin: 40px 200px
+	padding: 50px, 50px;
+}
+
+#cinquième {
+	letter-spacing: 0,2px;
+	padding: 10px
+	line-height: 100px;
+}
+.container {
+	width: 700px;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+		font-size: 10px;
+		margin: 0px auto;
+	}
+	h1{
+		font-size: 25px;
+	}
+	.presentation {
+		font-family: 'Roboto', sans-serif;
+	    font-weight: 200;
+	    font-size: 13px;
+	    color: #3F5D95;
+	    line-height: 1.8;
+	    text-align: center;
+	    background-color: white;
+	    margin: 30px 0px;
+	}
+
+	#deuxième, #troisième, #quatrième, #cinquième{
+		padding: 10px 0px;
+		font-size: 13px;
+		margin: 10px 0px;
+	}
+}
